@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.1}
   s.summary = "Connection proxy for ActiveRecord for single master / multiple slave database groups"
 
-  s.add_dependency('activerecord', ["~> 4.0.0.rc1"])
+  s.add_dependency('activerecord', ["~> 4.0.0"])
+  s.add_dependency('rack')
   s.add_development_dependency('mysql2', ["~> 0.3.11"])
   s.add_development_dependency('rspec')
   s.add_development_dependency('rake')
